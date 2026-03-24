@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: 'my-docs/', // 部署到 GitHub Pages 时需要设置为仓库名
+  base: '/my-docs/', // 部署到 GitHub Pages 时需要设置为仓库名
   head: [
     ['link', { rel: 'icon', href: '/my-docs/logo2.png' }] // 网站图标，放在 public 目录下
   ],
