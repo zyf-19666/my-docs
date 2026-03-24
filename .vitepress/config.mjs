@@ -28,7 +28,7 @@ export default defineConfig({
         }
       }
     },
-    outlineTitle: "文章目录",
+    outlineTitle: "内容导航",
     outline: [2, 6], // 显示 h2 到 h6 的标题
     logo: '/logo.png', // 网站 logo，放在 public 目录下
     // https://vitepress.dev/reference/default-theme-config
@@ -40,15 +40,39 @@ export default defineConfig({
           { text: 'Markdown 示例', link: '/markdown-examples' },
           { text: ' API 示例', link: '/api-examples' }
         ]
-      }
+      },
     ],
 
     sidebar: [
       {
-        text: '列表',
+        text: '介绍',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '项目简介', link: '/introduction' },
+          { text: '快速开始', link: '/quick-start' }
+        ]
+      },
+      {
+        text: '基础',
+        items: [
+          { text: 'HTML', link: '/frontend/html' },
+          { text: 'CSS', link: '/frontend/css'},
+          { text: 'JavaScript', link: '/frontend/javascript' }
+        ]
+      },
+      {
+        text: "进阶",
+        items: [
+          { text: '网络请求', link: '/advanced/network' },
+          { text: '浏览器原理', link: '/advanced/browser' },
+          { text: '性能优化', link: '/advanced/performance' }
+        ]
+      },
+      {
+        text: "框架与工程化",
+        items: [
+          { text: 'Vue全家桶', link: '/framework/vue' },
+          { text: 'React全家桶', link: '/framework/react' },
+          { text: '前端工程化', link: '/framework/engineering' }
         ]
       }
     ],

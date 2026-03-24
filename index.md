@@ -3,19 +3,19 @@
 layout: home
 
 hero:
-  name: "我的文档站点"
-  text: "这是一个使用 VitePress 构建的文档站点示例。"
+  name: "我的前端学习笔记"
+  text: "这是一个使用 VitePress 构建的前端知识库。"
   tagline: "欢迎来到我的文档站点！"
   image: 
     src: /001.jpg
     alt: 背景图片
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
+      text: 项目简介
+      link: /introduction
     - theme: alt
-      text: API 示例
-      link: /api-examples
+      text: 快速开始
+      link: /quick-start
 
 features:
   - title: Feature A
