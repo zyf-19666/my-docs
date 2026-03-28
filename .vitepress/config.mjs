@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   base: '/my-docs/', // 部署到 GitHub Pages 时需要设置为仓库名
   head: [
-    ['link', { rel: 'icon', href: '/my-docs/logo2.png' }] // 网站图标，放在 public 目录下
+    ['link', { rel: 'icon', href: '/my-docs/favicon.ico' }] // 网站图标，放在 public 目录下
   ],
   title: "My Awesome Project",// 网站标题
   description: "A VitePress Site",// 网站描述
@@ -56,7 +56,8 @@ export default defineConfig({
         items: [
           { text: 'HTML', link: '/frontend/html' },
           { text: 'CSS', link: '/frontend/css'},
-          { text: 'JavaScript', link: '/frontend/javascript' }
+          { text: 'JavaScript', link: '/frontend/javascript' },
+          { text: 'TypeScript', link: '/frontend/ts' }
         ]
       },
       {
