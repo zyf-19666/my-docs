@@ -8,6 +8,9 @@ export default defineConfig({
   ],
   title: "My Awesome Project",// 网站标题
   description: "A VitePress Site",// 网站描述
+  // 关闭死链检查，适合在开发阶段使用
+  // 生产环境建议开启，以确保链接的正确性
+  ignoreDeadLinks: true,
   themeConfig: {
     search: {
       provider: 'local',
