@@ -76,7 +76,8 @@ export default defineConfig({
         items: [
           { text: 'Vue全家桶', link: '/framework/vue' },
           { text: 'React全家桶', link: '/framework/react' },
-          { text: '前端工程化', link: '/framework/engineering' }
+          { text: '前端工程化', link: '/framework/engineering' },
+          { text: 'uni-app', link: '/framework/uni-app' },
         ]
       }
     ],
