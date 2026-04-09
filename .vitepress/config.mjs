@@ -6,7 +6,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/my-docs/favicon.ico' }] // 网站图标，放在 public 目录下
   ],
-  title: "My Awesome Project",// 网站标题
+  title: "My Docs Project",// 网站标题
   description: "A VitePress Site",// 网站描述
   // 关闭死链检查，适合在开发阶段使用
   // 生产环境建议开启，以确保链接的正确性
@@ -87,6 +87,14 @@ export default defineConfig({
     ],
     footer: {
       copyright: 'Copyright © 2026 My Awesome Project',
+    }
+  },
+  markdown: {
+    codeHighlight: {
+      theme: {
+        light: 'github-dark', // 亮色主题
+        dark: 'github-dark' // 暗色主题
+      }
     }
   }
 })

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的前端学习笔记"
+  name: "我的学习笔记"
   text: "这是一个使用 VitePress 构建的前端知识库。"
   tagline: "欢迎来到我的文档站点！"
   image: 
